@@ -35,7 +35,7 @@ class PlanetApiTest extends TestCase
 
         $dataReturn = json_decode($response->getBody());
 
-        $this->assertEquals(true, isset($dataReturn->results));
+        $this->assertEquals(true, isset($dataReturn->name));
     }
 
     private function Retorno_Vazio(): void
