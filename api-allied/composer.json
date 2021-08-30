@@ -1,0 +1,24 @@
+{
+    "name": "alanquidornne/api-allied",
+    "description": "Api projeto processo sele\u0000\u0000o Allied",
+    "authors": [
+        {
+            "name": "Alan",
+            "email": "aquidornne@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Src\\": "Src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.3",
+        "nikic/fast-route": "^1.3",
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "vendor\\bin\\phpunit --testsuite unit"
+    }
+}
