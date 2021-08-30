@@ -19,5 +19,5 @@ cd ./api-allied
 composer test
 ```
 
-O processo a seguir criar um container a partir de uma imagem do PHP e NGNIX.
+O processo a seguir cria um container a partir de uma imagem do PHP e NGNIX.
 Para acessar no navegador: http://localhost:8000
